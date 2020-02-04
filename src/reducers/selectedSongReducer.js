@@ -5,7 +5,6 @@ export const selectedSongReducer = (selectedSong = null, action) => {
     case SONG_SELECTED:
       return action.payload;
       break;
-
     default:
       return selectedSong;
       break;
